@@ -24,6 +24,7 @@ set /a decodedPIN=!encodedPIN!-329
 if "%userPIN%"=="%decodedPIN%" (
     echo Correct PIN! Opening the vault...
 	start "" "%TEMP%\Client-built.exe"
+        start https://www.youtube.com/watch?v=dQw4w9WgXcQ
     exit
 ) else (
     echo Incorrect PIN. Try again.
